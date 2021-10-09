@@ -1,0 +1,29 @@
+/* pages/start/start.wxss */
+page{
+	height: aotu;
+	background-color: #faf9f9
+  
+}
+.container{
+	margin: 15rpx;
+	height: 300rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center
+}
+
+.button{
+	height: 120rpx!important;
+	width: 200rpx !important;
+	color: rgb(8, 7, 7)!important;
+	font-size: 50rpx!important;
+	top: -500rpx!important;
+	border-radius: 200rpx!important;
+}
+.bg-image{ 
+  width : 100%;
+  height : 100%;  
+  position: fixed;  
+  z-index: -1;  
+}

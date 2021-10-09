@@ -1,0 +1,13 @@
+<!--pages/rule/rule.wxml-->
+
+<view>
+<image class="bg-image" mode="scaleToFill" src="/images/background.jpg"></image>
+</view>
+
+<view class='body'>
+  <image src='/images/rule.jpg'  mode='aspectFit' style='width:800rpx; height: 750rpx;' justify-content='center' ></image>
+</view>
+
+<view class="btn-area" id="buttonContainer">
+    <button type="default" style="height: 120rpx; width: 200rpx; color: rgb(8, 7, 7); font-size: 50rpx; top: 150rpx; border-radius: 200rpx; "bindtap="gotopattern">继续</button>
+</view>

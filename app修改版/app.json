@@ -1,0 +1,22 @@
+{
+  "pages": [
+    
+    "pages/start/start",
+    "pages/pattern/pattern",
+    "pages/single/single",
+    "pages/multiplayer/multiplayer",
+    "pages/rule/rule"
+    
+  ],
+  "window": {
+    "backgroundColor": "#fff",
+    "backgroundColorTop": "#fff",
+    "backgroundColorBottom": "#fff",
+    "enablePullDownRefresh": true,
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "中秋博饼",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

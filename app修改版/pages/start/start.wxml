@@ -1,0 +1,14 @@
+<!--pages/start/start.wxml-->
+
+<view>
+<image class="bg-image" mode="scaleToFill" src="/images/background.jpg"></image>
+</view>
+
+<view class='container'>
+<view class='title' style='font-family:Times New Roman,Times,serif; font-size:50px; color: rgb(234, 250, 192);'>线上博饼</view>
+</view>
+
+<view class="btn-area" id="buttonContainer">
+    <button type="default" style="height: 170rpx; width: 250rpx; color: rgb(8, 7, 7); font-size: 65rpx; top: 300rpx; border-radius: 200rpx; "bindtap="gotopattern">开始</button>
+</view>
+

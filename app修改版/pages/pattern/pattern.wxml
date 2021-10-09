@@ -1,0 +1,17 @@
+<!--pages/pattern/pattern.wxml-->
+
+<view>
+<image class="bg-image" mode="scaleToFill" src="/images/background.jpg"></image>
+</view>
+
+<view class="btn-area" id="buttonContainer">
+    <button type="default" style="height: 120rpx; width: 300rpx; color: rgb(8, 7, 7); font-size: 50rpx; top: 300rpx; border-radius: 200rpx; "bindtap="gotosingle">单人模式</button>
+</view>
+
+<view class="btn-area" id="buttonContainer">
+    <button type="default" style="height: 120rpx; width: 300rpx; color: rgb(8, 7, 7); font-size: 50rpx; top: 360rpx; border-radius: 200rpx; "bindtap="gotomultiplayer">多人模式</button>
+</view>
+
+<view class="btn-area" id="buttonContainer">
+    <button type="default" style="height: 120rpx; width: 300rpx; color: rgb(8, 7, 7); font-size: 50rpx; top: 420rpx; border-radius: 200rpx; "bindtap="gotorule">规则</button>
+</view>
